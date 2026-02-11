@@ -1,9 +1,9 @@
-# C-PROGRAMS-
+# Cpp-PROGRAMS-
 
 
-#### write a cpp program to implement a singly linked list using a struct node and dynamic memory allocation   with new and delete . Implement the following operations :
+#### write a cpp program to implement a singly linked list using a struct node and dynamic memory allocation  with new and delete . Implement the following operations :
 #### insertion of a node at the beginning  
-#### insertio of a node at the end
+#### insertion of a node at the end
 #### deletion of a node
 #### display the entire list
 #### use new to allocate memory for each node , and delete to free memory when deleting nodes
@@ -128,8 +128,8 @@ int main() {
 
 ```
 ```
-#### swap two numbers using pointers 
-#### write a c++ program that swaps two numbers using pointers . the program should
+#### Swap two numbers using pointers 
+#### Write a c++ program that swaps two numbers using pointers . the program should
 #### declare two integer variables
 #### use a pointer to swap their values
 #### print the swapped values
@@ -337,24 +337,4 @@ int main() {
 <img width="297" height="103" alt="image" src="https://github.com/user-attachments/assets/4af61b74-a062-48a1-9fef-448b060e7f01" />
 
 ```
-```
-#### Write a C++ program where a function returns a reference to a local variable. What are potential problems and how to #### avoid them. Implement a version where the function returns a refernce to a static or globally declared variable.
-```c
-#include <iostream>
-using namespace std;
-
-int& getValue() {
-    int x = 10;   
-    return x;    
-}
-
-int main() {
-    int& ref = getValue();  
-    cout << "Value: " << ref << endl;  
-
-    ref = 50;  // Attempt to modify invalid memory
-    cout << "Modified Value: " << ref << endl;
-
-    return 0;
-}
 ```
